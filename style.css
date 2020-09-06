@@ -1,0 +1,38 @@
+.inner {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  padding: 40px;
+}
+
+.btn {
+  width: 200px;
+  height: 200px;
+  font-size: 48px;
+  text-align: center;
+  display: inline-block;
+  margin: 0 0 1em;
+  background-image: none;
+  background-color: red;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 50;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+          box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+.btn:hover
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  -webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.2);
+  margin-top: 3px;
+}
+/*# sourceMappingURL=style.css.map */
